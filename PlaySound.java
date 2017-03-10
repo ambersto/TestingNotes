@@ -12,8 +12,8 @@ import android.os.Bundle;
 public class PlaySound extends Activity {
     // originally from http://marblemice.blogspot.com/2010/04/generate-and-play-tone-in-android.html
     // and modified by Steve Pomeroy <steve@staticfree.info>
-    private final int duration = 1; // half seconds
-    private final int sampleRate = 2000;
+    private final int duration = 1; // seconds
+    private final int sampleRate = 8000;
     private final int numSamples = duration * sampleRate;
     private final double sample[] = new double[numSamples];
     private double freqOfTone = 440; // hz
